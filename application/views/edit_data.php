@@ -25,7 +25,7 @@
         <form action="<?=base_url()?>index.php/home/updatedata" method="post" enctype="multipart/form-data">
           <label>Nama</label><br>
           <input type="text" name="name" value="<?=$data->name?>"><br><br>
-          <label>deskripsi</label><br>
+          <label>Deskripsi</label><br>
           <textarea name="deskripsi" rows="8" cols="80"><?=$data->deskripsi?></textarea><br><br>
           <label>foto</label><br>
           <input type="file" name="fotopost"><br><br>
